@@ -58,12 +58,10 @@ function drawKeypoints() {
       pkeyHandX = keypoint.position.x;
       pkeyHandY = keypoint.position.y;
 
-      // if (keyHandX < keyHandX) {
         if(keyHandX > width/2){
         directionX = -1;
       }
       if(keyHandX < width/2){
-      // if (keyHandX >= keyHandX) {
         directionX = 1;
       }
       for (var j = 0; j < word.length; j++) {
